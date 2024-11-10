@@ -41,514 +41,97 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = /Users/gwon-oyeong/CLionProjects/cppCodingTest/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target 1189
+# Object build statements for EXECUTABLE target 1285
 
 
 #############################################
-# Order-only phony target for 1189
+# Order-only phony target for 1285
 
-build cmake_object_order_depends_target_1189: phony || .
+build cmake_object_order_depends_target_1285: phony || .
 
-build CMakeFiles/1189.dir/src/Three_week/1189.cpp.o: CXX_COMPILER__1189_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Three_week/1189.cpp || cmake_object_order_depends_target_1189
-  DEP_FILE = CMakeFiles/1189.dir/src/Three_week/1189.cpp.o.d
+build CMakeFiles/1285.dir/src/Four_week/1285.cpp.o: CXX_COMPILER__1285_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Four_week/1285.cpp || cmake_object_order_depends_target_1285
+  DEP_FILE = CMakeFiles/1285.dir/src/Four_week/1285.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/1189.dir
-  OBJECT_FILE_DIR = CMakeFiles/1189.dir/src/Three_week
-
-build CMakeFiles/1189.dir/src/Four_theory/bitdrop.cpp.o: CXX_COMPILER__1189_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Four_theory/bitdrop.cpp || cmake_object_order_depends_target_1189
-  DEP_FILE = CMakeFiles/1189.dir/src/Four_theory/bitdrop.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/1189.dir
-  OBJECT_FILE_DIR = CMakeFiles/1189.dir/src/Four_theory
+  OBJECT_DIR = CMakeFiles/1285.dir
+  OBJECT_FILE_DIR = CMakeFiles/1285.dir/src/Four_week
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target 1189
+# Link build statements for EXECUTABLE target 1285
 
 
 #############################################
-# Link the executable 1189
+# Link the executable 1285
 
-build 1189: CXX_EXECUTABLE_LINKER__1189_Debug CMakeFiles/1189.dir/src/Three_week/1189.cpp.o CMakeFiles/1189.dir/src/Four_theory/bitdrop.cpp.o
+build 1285: CXX_EXECUTABLE_LINKER__1285_Debug CMakeFiles/1285.dir/src/Four_week/1285.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
-  OBJECT_DIR = CMakeFiles/1189.dir
+  OBJECT_DIR = CMakeFiles/1285.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = 1189
-  TARGET_PDB = 1189.dbg
+  TARGET_FILE = 1285
+  TARGET_PDB = 1285.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target 12851
+# Object build statements for EXECUTABLE target 14890
 
 
 #############################################
-# Order-only phony target for 12851
+# Order-only phony target for 14890
 
-build cmake_object_order_depends_target_12851: phony || .
+build cmake_object_order_depends_target_14890: phony || .
 
-build CMakeFiles/12851.dir/src/Three_week/12851.cpp.o: CXX_COMPILER__12851_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Three_week/12851.cpp || cmake_object_order_depends_target_12851
-  DEP_FILE = CMakeFiles/12851.dir/src/Three_week/12851.cpp.o.d
+build CMakeFiles/14890.dir/src/Four_week/14890.cpp.o: CXX_COMPILER__14890_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Four_week/14890.cpp || cmake_object_order_depends_target_14890
+  DEP_FILE = CMakeFiles/14890.dir/src/Four_week/14890.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/12851.dir
-  OBJECT_FILE_DIR = CMakeFiles/12851.dir/src/Three_week
-
-build CMakeFiles/12851.dir/src/Three_week/1189.cpp.o: CXX_COMPILER__12851_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Three_week/1189.cpp || cmake_object_order_depends_target_12851
-  DEP_FILE = CMakeFiles/12851.dir/src/Three_week/1189.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/12851.dir
-  OBJECT_FILE_DIR = CMakeFiles/12851.dir/src/Three_week
-
-build CMakeFiles/12851.dir/src/Four_theory/bitdrop.cpp.o: CXX_COMPILER__12851_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Four_theory/bitdrop.cpp || cmake_object_order_depends_target_12851
-  DEP_FILE = CMakeFiles/12851.dir/src/Four_theory/bitdrop.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/12851.dir
-  OBJECT_FILE_DIR = CMakeFiles/12851.dir/src/Four_theory
+  OBJECT_DIR = CMakeFiles/14890.dir
+  OBJECT_FILE_DIR = CMakeFiles/14890.dir/src/Four_week
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target 12851
+# Link build statements for EXECUTABLE target 14890
 
 
 #############################################
-# Link the executable 12851
+# Link the executable 14890
 
-build 12851: CXX_EXECUTABLE_LINKER__12851_Debug CMakeFiles/12851.dir/src/Three_week/12851.cpp.o CMakeFiles/12851.dir/src/Three_week/1189.cpp.o CMakeFiles/12851.dir/src/Four_theory/bitdrop.cpp.o
+build 14890: CXX_EXECUTABLE_LINKER__14890_Debug CMakeFiles/14890.dir/src/Four_week/14890.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
-  OBJECT_DIR = CMakeFiles/12851.dir
+  OBJECT_DIR = CMakeFiles/14890.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = 12851
-  TARGET_PDB = 12851.dbg
+  TARGET_FILE = 14890
+  TARGET_PDB = 14890.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target 12869
+# Object build statements for EXECUTABLE target 17471
 
 
 #############################################
-# Order-only phony target for 12869
+# Order-only phony target for 17471
 
-build cmake_object_order_depends_target_12869: phony || .
+build cmake_object_order_depends_target_17471: phony || .
 
-build CMakeFiles/12869.dir/src/Three_week/12869.cpp.o: CXX_COMPILER__12869_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Three_week/12869.cpp || cmake_object_order_depends_target_12869
-  DEP_FILE = CMakeFiles/12869.dir/src/Three_week/12869.cpp.o.d
+build CMakeFiles/17471.dir/src/Four_week/17471.cpp.o: CXX_COMPILER__17471_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Four_week/17471.cpp || cmake_object_order_depends_target_17471
+  DEP_FILE = CMakeFiles/17471.dir/src/Four_week/17471.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/12869.dir
-  OBJECT_FILE_DIR = CMakeFiles/12869.dir/src/Three_week
-
-build CMakeFiles/12869.dir/src/Three_week/1189.cpp.o: CXX_COMPILER__12869_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Three_week/1189.cpp || cmake_object_order_depends_target_12869
-  DEP_FILE = CMakeFiles/12869.dir/src/Three_week/1189.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/12869.dir
-  OBJECT_FILE_DIR = CMakeFiles/12869.dir/src/Three_week
-
-build CMakeFiles/12869.dir/src/Four_theory/bitdrop.cpp.o: CXX_COMPILER__12869_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Four_theory/bitdrop.cpp || cmake_object_order_depends_target_12869
-  DEP_FILE = CMakeFiles/12869.dir/src/Four_theory/bitdrop.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/12869.dir
-  OBJECT_FILE_DIR = CMakeFiles/12869.dir/src/Four_theory
+  OBJECT_DIR = CMakeFiles/17471.dir
+  OBJECT_FILE_DIR = CMakeFiles/17471.dir/src/Four_week
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target 12869
+# Link build statements for EXECUTABLE target 17471
 
 
 #############################################
-# Link the executable 12869
+# Link the executable 17471
 
-build 12869: CXX_EXECUTABLE_LINKER__12869_Debug CMakeFiles/12869.dir/src/Three_week/12869.cpp.o CMakeFiles/12869.dir/src/Three_week/1189.cpp.o CMakeFiles/12869.dir/src/Four_theory/bitdrop.cpp.o
+build 17471: CXX_EXECUTABLE_LINKER__17471_Debug CMakeFiles/17471.dir/src/Four_week/17471.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
-  OBJECT_DIR = CMakeFiles/12869.dir
+  OBJECT_DIR = CMakeFiles/17471.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = 12869
-  TARGET_PDB = 12869.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 13913
-
-
-#############################################
-# Order-only phony target for 13913
-
-build cmake_object_order_depends_target_13913: phony || .
-
-build CMakeFiles/13913.dir/src/Three_week/13913.cpp.o: CXX_COMPILER__13913_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Three_week/13913.cpp || cmake_object_order_depends_target_13913
-  DEP_FILE = CMakeFiles/13913.dir/src/Three_week/13913.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/13913.dir
-  OBJECT_FILE_DIR = CMakeFiles/13913.dir/src/Three_week
-
-build CMakeFiles/13913.dir/src/Three_week/1189.cpp.o: CXX_COMPILER__13913_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Three_week/1189.cpp || cmake_object_order_depends_target_13913
-  DEP_FILE = CMakeFiles/13913.dir/src/Three_week/1189.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/13913.dir
-  OBJECT_FILE_DIR = CMakeFiles/13913.dir/src/Three_week
-
-build CMakeFiles/13913.dir/src/Four_theory/bitdrop.cpp.o: CXX_COMPILER__13913_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Four_theory/bitdrop.cpp || cmake_object_order_depends_target_13913
-  DEP_FILE = CMakeFiles/13913.dir/src/Four_theory/bitdrop.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/13913.dir
-  OBJECT_FILE_DIR = CMakeFiles/13913.dir/src/Four_theory
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 13913
-
-
-#############################################
-# Link the executable 13913
-
-build 13913: CXX_EXECUTABLE_LINKER__13913_Debug CMakeFiles/13913.dir/src/Three_week/13913.cpp.o CMakeFiles/13913.dir/src/Three_week/1189.cpp.o CMakeFiles/13913.dir/src/Four_theory/bitdrop.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
-  OBJECT_DIR = CMakeFiles/13913.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 13913
-  TARGET_PDB = 13913.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 14497
-
-
-#############################################
-# Order-only phony target for 14497
-
-build cmake_object_order_depends_target_14497: phony || .
-
-build CMakeFiles/14497.dir/src/Three_week/14497.cpp.o: CXX_COMPILER__14497_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Three_week/14497.cpp || cmake_object_order_depends_target_14497
-  DEP_FILE = CMakeFiles/14497.dir/src/Three_week/14497.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/14497.dir
-  OBJECT_FILE_DIR = CMakeFiles/14497.dir/src/Three_week
-
-build CMakeFiles/14497.dir/src/Three_week/1189.cpp.o: CXX_COMPILER__14497_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Three_week/1189.cpp || cmake_object_order_depends_target_14497
-  DEP_FILE = CMakeFiles/14497.dir/src/Three_week/1189.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/14497.dir
-  OBJECT_FILE_DIR = CMakeFiles/14497.dir/src/Three_week
-
-build CMakeFiles/14497.dir/src/Four_theory/bitdrop.cpp.o: CXX_COMPILER__14497_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Four_theory/bitdrop.cpp || cmake_object_order_depends_target_14497
-  DEP_FILE = CMakeFiles/14497.dir/src/Four_theory/bitdrop.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/14497.dir
-  OBJECT_FILE_DIR = CMakeFiles/14497.dir/src/Four_theory
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 14497
-
-
-#############################################
-# Link the executable 14497
-
-build 14497: CXX_EXECUTABLE_LINKER__14497_Debug CMakeFiles/14497.dir/src/Three_week/14497.cpp.o CMakeFiles/14497.dir/src/Three_week/1189.cpp.o CMakeFiles/14497.dir/src/Four_theory/bitdrop.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
-  OBJECT_DIR = CMakeFiles/14497.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 14497
-  TARGET_PDB = 14497.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 14620
-
-
-#############################################
-# Order-only phony target for 14620
-
-build cmake_object_order_depends_target_14620: phony || .
-
-build CMakeFiles/14620.dir/src/Three_week/14620.cpp.o: CXX_COMPILER__14620_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Three_week/14620.cpp || cmake_object_order_depends_target_14620
-  DEP_FILE = CMakeFiles/14620.dir/src/Three_week/14620.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/14620.dir
-  OBJECT_FILE_DIR = CMakeFiles/14620.dir/src/Three_week
-
-build CMakeFiles/14620.dir/src/Three_week/1189.cpp.o: CXX_COMPILER__14620_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Three_week/1189.cpp || cmake_object_order_depends_target_14620
-  DEP_FILE = CMakeFiles/14620.dir/src/Three_week/1189.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/14620.dir
-  OBJECT_FILE_DIR = CMakeFiles/14620.dir/src/Three_week
-
-build CMakeFiles/14620.dir/src/Four_theory/bitdrop.cpp.o: CXX_COMPILER__14620_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Four_theory/bitdrop.cpp || cmake_object_order_depends_target_14620
-  DEP_FILE = CMakeFiles/14620.dir/src/Four_theory/bitdrop.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/14620.dir
-  OBJECT_FILE_DIR = CMakeFiles/14620.dir/src/Four_theory
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 14620
-
-
-#############################################
-# Link the executable 14620
-
-build 14620: CXX_EXECUTABLE_LINKER__14620_Debug CMakeFiles/14620.dir/src/Three_week/14620.cpp.o CMakeFiles/14620.dir/src/Three_week/1189.cpp.o CMakeFiles/14620.dir/src/Four_theory/bitdrop.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
-  OBJECT_DIR = CMakeFiles/14620.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 14620
-  TARGET_PDB = 14620.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 15684
-
-
-#############################################
-# Order-only phony target for 15684
-
-build cmake_object_order_depends_target_15684: phony || .
-
-build CMakeFiles/15684.dir/src/Three_week/15684.cpp.o: CXX_COMPILER__15684_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Three_week/15684.cpp || cmake_object_order_depends_target_15684
-  DEP_FILE = CMakeFiles/15684.dir/src/Three_week/15684.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/15684.dir
-  OBJECT_FILE_DIR = CMakeFiles/15684.dir/src/Three_week
-
-build CMakeFiles/15684.dir/src/Three_week/1189.cpp.o: CXX_COMPILER__15684_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Three_week/1189.cpp || cmake_object_order_depends_target_15684
-  DEP_FILE = CMakeFiles/15684.dir/src/Three_week/1189.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/15684.dir
-  OBJECT_FILE_DIR = CMakeFiles/15684.dir/src/Three_week
-
-build CMakeFiles/15684.dir/src/Four_theory/bitdrop.cpp.o: CXX_COMPILER__15684_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Four_theory/bitdrop.cpp || cmake_object_order_depends_target_15684
-  DEP_FILE = CMakeFiles/15684.dir/src/Four_theory/bitdrop.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/15684.dir
-  OBJECT_FILE_DIR = CMakeFiles/15684.dir/src/Four_theory
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 15684
-
-
-#############################################
-# Link the executable 15684
-
-build 15684: CXX_EXECUTABLE_LINKER__15684_Debug CMakeFiles/15684.dir/src/Three_week/15684.cpp.o CMakeFiles/15684.dir/src/Three_week/1189.cpp.o CMakeFiles/15684.dir/src/Four_theory/bitdrop.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
-  OBJECT_DIR = CMakeFiles/15684.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 15684
-  TARGET_PDB = 15684.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 15686
-
-
-#############################################
-# Order-only phony target for 15686
-
-build cmake_object_order_depends_target_15686: phony || .
-
-build CMakeFiles/15686.dir/src/Three_week/15686.cpp.o: CXX_COMPILER__15686_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Three_week/15686.cpp || cmake_object_order_depends_target_15686
-  DEP_FILE = CMakeFiles/15686.dir/src/Three_week/15686.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/15686.dir
-  OBJECT_FILE_DIR = CMakeFiles/15686.dir/src/Three_week
-
-build CMakeFiles/15686.dir/src/Three_week/1189.cpp.o: CXX_COMPILER__15686_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Three_week/1189.cpp || cmake_object_order_depends_target_15686
-  DEP_FILE = CMakeFiles/15686.dir/src/Three_week/1189.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/15686.dir
-  OBJECT_FILE_DIR = CMakeFiles/15686.dir/src/Three_week
-
-build CMakeFiles/15686.dir/src/Four_theory/bitdrop.cpp.o: CXX_COMPILER__15686_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Four_theory/bitdrop.cpp || cmake_object_order_depends_target_15686
-  DEP_FILE = CMakeFiles/15686.dir/src/Four_theory/bitdrop.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/15686.dir
-  OBJECT_FILE_DIR = CMakeFiles/15686.dir/src/Four_theory
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 15686
-
-
-#############################################
-# Link the executable 15686
-
-build 15686: CXX_EXECUTABLE_LINKER__15686_Debug CMakeFiles/15686.dir/src/Three_week/15686.cpp.o CMakeFiles/15686.dir/src/Three_week/1189.cpp.o CMakeFiles/15686.dir/src/Four_theory/bitdrop.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
-  OBJECT_DIR = CMakeFiles/15686.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 15686
-  TARGET_PDB = 15686.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 16234
-
-
-#############################################
-# Order-only phony target for 16234
-
-build cmake_object_order_depends_target_16234: phony || .
-
-build CMakeFiles/16234.dir/src/Three_week/16234.cpp.o: CXX_COMPILER__16234_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Three_week/16234.cpp || cmake_object_order_depends_target_16234
-  DEP_FILE = CMakeFiles/16234.dir/src/Three_week/16234.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/16234.dir
-  OBJECT_FILE_DIR = CMakeFiles/16234.dir/src/Three_week
-
-build CMakeFiles/16234.dir/src/Three_week/1189.cpp.o: CXX_COMPILER__16234_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Three_week/1189.cpp || cmake_object_order_depends_target_16234
-  DEP_FILE = CMakeFiles/16234.dir/src/Three_week/1189.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/16234.dir
-  OBJECT_FILE_DIR = CMakeFiles/16234.dir/src/Three_week
-
-build CMakeFiles/16234.dir/src/Four_theory/bitdrop.cpp.o: CXX_COMPILER__16234_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Four_theory/bitdrop.cpp || cmake_object_order_depends_target_16234
-  DEP_FILE = CMakeFiles/16234.dir/src/Four_theory/bitdrop.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/16234.dir
-  OBJECT_FILE_DIR = CMakeFiles/16234.dir/src/Four_theory
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 16234
-
-
-#############################################
-# Link the executable 16234
-
-build 16234: CXX_EXECUTABLE_LINKER__16234_Debug CMakeFiles/16234.dir/src/Three_week/16234.cpp.o CMakeFiles/16234.dir/src/Three_week/1189.cpp.o CMakeFiles/16234.dir/src/Four_theory/bitdrop.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
-  OBJECT_DIR = CMakeFiles/16234.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 16234
-  TARGET_PDB = 16234.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 16637
-
-
-#############################################
-# Order-only phony target for 16637
-
-build cmake_object_order_depends_target_16637: phony || .
-
-build CMakeFiles/16637.dir/src/Three_week/16637.cpp.o: CXX_COMPILER__16637_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Three_week/16637.cpp || cmake_object_order_depends_target_16637
-  DEP_FILE = CMakeFiles/16637.dir/src/Three_week/16637.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/16637.dir
-  OBJECT_FILE_DIR = CMakeFiles/16637.dir/src/Three_week
-
-build CMakeFiles/16637.dir/src/Three_week/1189.cpp.o: CXX_COMPILER__16637_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Three_week/1189.cpp || cmake_object_order_depends_target_16637
-  DEP_FILE = CMakeFiles/16637.dir/src/Three_week/1189.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/16637.dir
-  OBJECT_FILE_DIR = CMakeFiles/16637.dir/src/Three_week
-
-build CMakeFiles/16637.dir/src/Four_theory/bitdrop.cpp.o: CXX_COMPILER__16637_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Four_theory/bitdrop.cpp || cmake_object_order_depends_target_16637
-  DEP_FILE = CMakeFiles/16637.dir/src/Four_theory/bitdrop.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/16637.dir
-  OBJECT_FILE_DIR = CMakeFiles/16637.dir/src/Four_theory
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 16637
-
-
-#############################################
-# Link the executable 16637
-
-build 16637: CXX_EXECUTABLE_LINKER__16637_Debug CMakeFiles/16637.dir/src/Three_week/16637.cpp.o CMakeFiles/16637.dir/src/Three_week/1189.cpp.o CMakeFiles/16637.dir/src/Four_theory/bitdrop.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
-  OBJECT_DIR = CMakeFiles/16637.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 16637
-  TARGET_PDB = 16637.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 17071
-
-
-#############################################
-# Order-only phony target for 17071
-
-build cmake_object_order_depends_target_17071: phony || .
-
-build CMakeFiles/17071.dir/src/Three_week/17071.cpp.o: CXX_COMPILER__17071_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Three_week/17071.cpp || cmake_object_order_depends_target_17071
-  DEP_FILE = CMakeFiles/17071.dir/src/Three_week/17071.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/17071.dir
-  OBJECT_FILE_DIR = CMakeFiles/17071.dir/src/Three_week
-
-build CMakeFiles/17071.dir/src/Three_week/1189.cpp.o: CXX_COMPILER__17071_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Three_week/1189.cpp || cmake_object_order_depends_target_17071
-  DEP_FILE = CMakeFiles/17071.dir/src/Three_week/1189.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/17071.dir
-  OBJECT_FILE_DIR = CMakeFiles/17071.dir/src/Three_week
-
-build CMakeFiles/17071.dir/src/Four_theory/bitdrop.cpp.o: CXX_COMPILER__17071_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Four_theory/bitdrop.cpp || cmake_object_order_depends_target_17071
-  DEP_FILE = CMakeFiles/17071.dir/src/Four_theory/bitdrop.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/17071.dir
-  OBJECT_FILE_DIR = CMakeFiles/17071.dir/src/Four_theory
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 17071
-
-
-#############################################
-# Link the executable 17071
-
-build 17071: CXX_EXECUTABLE_LINKER__17071_Debug CMakeFiles/17071.dir/src/Three_week/17071.cpp.o CMakeFiles/17071.dir/src/Three_week/1189.cpp.o CMakeFiles/17071.dir/src/Four_theory/bitdrop.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
-  OBJECT_DIR = CMakeFiles/17071.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 17071
-  TARGET_PDB = 17071.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 17071re
-
-
-#############################################
-# Order-only phony target for 17071re
-
-build cmake_object_order_depends_target_17071re: phony || .
-
-build CMakeFiles/17071re.dir/src/Three_week/17071re.cpp.o: CXX_COMPILER__17071re_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Three_week/17071re.cpp || cmake_object_order_depends_target_17071re
-  DEP_FILE = CMakeFiles/17071re.dir/src/Three_week/17071re.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/17071re.dir
-  OBJECT_FILE_DIR = CMakeFiles/17071re.dir/src/Three_week
-
-build CMakeFiles/17071re.dir/src/Three_week/1189.cpp.o: CXX_COMPILER__17071re_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Three_week/1189.cpp || cmake_object_order_depends_target_17071re
-  DEP_FILE = CMakeFiles/17071re.dir/src/Three_week/1189.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/17071re.dir
-  OBJECT_FILE_DIR = CMakeFiles/17071re.dir/src/Three_week
-
-build CMakeFiles/17071re.dir/src/Four_theory/bitdrop.cpp.o: CXX_COMPILER__17071re_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Four_theory/bitdrop.cpp || cmake_object_order_depends_target_17071re
-  DEP_FILE = CMakeFiles/17071re.dir/src/Four_theory/bitdrop.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/17071re.dir
-  OBJECT_FILE_DIR = CMakeFiles/17071re.dir/src/Four_theory
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 17071re
-
-
-#############################################
-# Link the executable 17071re
-
-build 17071re: CXX_EXECUTABLE_LINKER__17071re_Debug CMakeFiles/17071re.dir/src/Three_week/17071re.cpp.o CMakeFiles/17071re.dir/src/Three_week/1189.cpp.o CMakeFiles/17071re.dir/src/Four_theory/bitdrop.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
-  OBJECT_DIR = CMakeFiles/17071re.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 17071re
-  TARGET_PDB = 17071re.dbg
+  TARGET_FILE = 17471
+  TARGET_PDB = 17471.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 1987
@@ -559,23 +142,11 @@ build 17071re: CXX_EXECUTABLE_LINKER__17071re_Debug CMakeFiles/17071re.dir/src/T
 
 build cmake_object_order_depends_target_1987: phony || .
 
-build CMakeFiles/1987.dir/src/Three_week/1987.cpp.o: CXX_COMPILER__1987_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Three_week/1987.cpp || cmake_object_order_depends_target_1987
-  DEP_FILE = CMakeFiles/1987.dir/src/Three_week/1987.cpp.o.d
+build CMakeFiles/1987.dir/src/Four_week/1987.cpp.o: CXX_COMPILER__1987_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Four_week/1987.cpp || cmake_object_order_depends_target_1987
+  DEP_FILE = CMakeFiles/1987.dir/src/Four_week/1987.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/1987.dir
-  OBJECT_FILE_DIR = CMakeFiles/1987.dir/src/Three_week
-
-build CMakeFiles/1987.dir/src/Three_week/1189.cpp.o: CXX_COMPILER__1987_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Three_week/1189.cpp || cmake_object_order_depends_target_1987
-  DEP_FILE = CMakeFiles/1987.dir/src/Three_week/1189.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/1987.dir
-  OBJECT_FILE_DIR = CMakeFiles/1987.dir/src/Three_week
-
-build CMakeFiles/1987.dir/src/Four_theory/bitdrop.cpp.o: CXX_COMPILER__1987_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Four_theory/bitdrop.cpp || cmake_object_order_depends_target_1987
-  DEP_FILE = CMakeFiles/1987.dir/src/Four_theory/bitdrop.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/1987.dir
-  OBJECT_FILE_DIR = CMakeFiles/1987.dir/src/Four_theory
+  OBJECT_FILE_DIR = CMakeFiles/1987.dir/src/Four_week
 
 
 # =============================================================================
@@ -585,7 +156,7 @@ build CMakeFiles/1987.dir/src/Four_theory/bitdrop.cpp.o: CXX_COMPILER__1987_unsc
 #############################################
 # Link the executable 1987
 
-build 1987: CXX_EXECUTABLE_LINKER__1987_Debug CMakeFiles/1987.dir/src/Three_week/1987.cpp.o CMakeFiles/1987.dir/src/Three_week/1189.cpp.o CMakeFiles/1987.dir/src/Four_theory/bitdrop.cpp.o
+build 1987: CXX_EXECUTABLE_LINKER__1987_Debug CMakeFiles/1987.dir/src/Four_week/1987.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/1987.dir
   POST_BUILD = :
@@ -594,219 +165,35 @@ build 1987: CXX_EXECUTABLE_LINKER__1987_Debug CMakeFiles/1987.dir/src/Three_week
   TARGET_PDB = 1987.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target 2529
+# Object build statements for EXECUTABLE target 19942
 
 
 #############################################
-# Order-only phony target for 2529
+# Order-only phony target for 19942
 
-build cmake_object_order_depends_target_2529: phony || .
+build cmake_object_order_depends_target_19942: phony || .
 
-build CMakeFiles/2529.dir/src/Three_week/2529.cpp.o: CXX_COMPILER__2529_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Three_week/2529.cpp || cmake_object_order_depends_target_2529
-  DEP_FILE = CMakeFiles/2529.dir/src/Three_week/2529.cpp.o.d
+build CMakeFiles/19942.dir/src/Four_week/19942.cpp.o: CXX_COMPILER__19942_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Four_week/19942.cpp || cmake_object_order_depends_target_19942
+  DEP_FILE = CMakeFiles/19942.dir/src/Four_week/19942.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/2529.dir
-  OBJECT_FILE_DIR = CMakeFiles/2529.dir/src/Three_week
-
-build CMakeFiles/2529.dir/src/Three_week/1189.cpp.o: CXX_COMPILER__2529_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Three_week/1189.cpp || cmake_object_order_depends_target_2529
-  DEP_FILE = CMakeFiles/2529.dir/src/Three_week/1189.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/2529.dir
-  OBJECT_FILE_DIR = CMakeFiles/2529.dir/src/Three_week
-
-build CMakeFiles/2529.dir/src/Four_theory/bitdrop.cpp.o: CXX_COMPILER__2529_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Four_theory/bitdrop.cpp || cmake_object_order_depends_target_2529
-  DEP_FILE = CMakeFiles/2529.dir/src/Four_theory/bitdrop.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/2529.dir
-  OBJECT_FILE_DIR = CMakeFiles/2529.dir/src/Four_theory
+  OBJECT_DIR = CMakeFiles/19942.dir
+  OBJECT_FILE_DIR = CMakeFiles/19942.dir/src/Four_week
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target 2529
+# Link build statements for EXECUTABLE target 19942
 
 
 #############################################
-# Link the executable 2529
+# Link the executable 19942
 
-build 2529: CXX_EXECUTABLE_LINKER__2529_Debug CMakeFiles/2529.dir/src/Three_week/2529.cpp.o CMakeFiles/2529.dir/src/Three_week/1189.cpp.o CMakeFiles/2529.dir/src/Four_theory/bitdrop.cpp.o
+build 19942: CXX_EXECUTABLE_LINKER__19942_Debug CMakeFiles/19942.dir/src/Four_week/19942.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
-  OBJECT_DIR = CMakeFiles/2529.dir
+  OBJECT_DIR = CMakeFiles/19942.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = 2529
-  TARGET_PDB = 2529.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 2589
-
-
-#############################################
-# Order-only phony target for 2589
-
-build cmake_object_order_depends_target_2589: phony || .
-
-build CMakeFiles/2589.dir/src/Three_week/2589.cpp.o: CXX_COMPILER__2589_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Three_week/2589.cpp || cmake_object_order_depends_target_2589
-  DEP_FILE = CMakeFiles/2589.dir/src/Three_week/2589.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/2589.dir
-  OBJECT_FILE_DIR = CMakeFiles/2589.dir/src/Three_week
-
-build CMakeFiles/2589.dir/src/Three_week/1189.cpp.o: CXX_COMPILER__2589_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Three_week/1189.cpp || cmake_object_order_depends_target_2589
-  DEP_FILE = CMakeFiles/2589.dir/src/Three_week/1189.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/2589.dir
-  OBJECT_FILE_DIR = CMakeFiles/2589.dir/src/Three_week
-
-build CMakeFiles/2589.dir/src/Four_theory/bitdrop.cpp.o: CXX_COMPILER__2589_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Four_theory/bitdrop.cpp || cmake_object_order_depends_target_2589
-  DEP_FILE = CMakeFiles/2589.dir/src/Four_theory/bitdrop.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/2589.dir
-  OBJECT_FILE_DIR = CMakeFiles/2589.dir/src/Four_theory
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 2589
-
-
-#############################################
-# Link the executable 2589
-
-build 2589: CXX_EXECUTABLE_LINKER__2589_Debug CMakeFiles/2589.dir/src/Three_week/2589.cpp.o CMakeFiles/2589.dir/src/Three_week/1189.cpp.o CMakeFiles/2589.dir/src/Four_theory/bitdrop.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
-  OBJECT_DIR = CMakeFiles/2589.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 2589
-  TARGET_PDB = 2589.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 3197
-
-
-#############################################
-# Order-only phony target for 3197
-
-build cmake_object_order_depends_target_3197: phony || .
-
-build CMakeFiles/3197.dir/src/Three_week/3197.cpp.o: CXX_COMPILER__3197_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Three_week/3197.cpp || cmake_object_order_depends_target_3197
-  DEP_FILE = CMakeFiles/3197.dir/src/Three_week/3197.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/3197.dir
-  OBJECT_FILE_DIR = CMakeFiles/3197.dir/src/Three_week
-
-build CMakeFiles/3197.dir/src/Three_week/1189.cpp.o: CXX_COMPILER__3197_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Three_week/1189.cpp || cmake_object_order_depends_target_3197
-  DEP_FILE = CMakeFiles/3197.dir/src/Three_week/1189.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/3197.dir
-  OBJECT_FILE_DIR = CMakeFiles/3197.dir/src/Three_week
-
-build CMakeFiles/3197.dir/src/Four_theory/bitdrop.cpp.o: CXX_COMPILER__3197_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Four_theory/bitdrop.cpp || cmake_object_order_depends_target_3197
-  DEP_FILE = CMakeFiles/3197.dir/src/Four_theory/bitdrop.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/3197.dir
-  OBJECT_FILE_DIR = CMakeFiles/3197.dir/src/Four_theory
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 3197
-
-
-#############################################
-# Link the executable 3197
-
-build 3197: CXX_EXECUTABLE_LINKER__3197_Debug CMakeFiles/3197.dir/src/Three_week/3197.cpp.o CMakeFiles/3197.dir/src/Three_week/1189.cpp.o CMakeFiles/3197.dir/src/Four_theory/bitdrop.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
-  OBJECT_DIR = CMakeFiles/3197.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 3197
-  TARGET_PDB = 3197.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 4179
-
-
-#############################################
-# Order-only phony target for 4179
-
-build cmake_object_order_depends_target_4179: phony || .
-
-build CMakeFiles/4179.dir/src/Three_week/4179.cpp.o: CXX_COMPILER__4179_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Three_week/4179.cpp || cmake_object_order_depends_target_4179
-  DEP_FILE = CMakeFiles/4179.dir/src/Three_week/4179.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/4179.dir
-  OBJECT_FILE_DIR = CMakeFiles/4179.dir/src/Three_week
-
-build CMakeFiles/4179.dir/src/Three_week/1189.cpp.o: CXX_COMPILER__4179_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Three_week/1189.cpp || cmake_object_order_depends_target_4179
-  DEP_FILE = CMakeFiles/4179.dir/src/Three_week/1189.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/4179.dir
-  OBJECT_FILE_DIR = CMakeFiles/4179.dir/src/Three_week
-
-build CMakeFiles/4179.dir/src/Four_theory/bitdrop.cpp.o: CXX_COMPILER__4179_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Four_theory/bitdrop.cpp || cmake_object_order_depends_target_4179
-  DEP_FILE = CMakeFiles/4179.dir/src/Four_theory/bitdrop.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/4179.dir
-  OBJECT_FILE_DIR = CMakeFiles/4179.dir/src/Four_theory
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 4179
-
-
-#############################################
-# Link the executable 4179
-
-build 4179: CXX_EXECUTABLE_LINKER__4179_Debug CMakeFiles/4179.dir/src/Three_week/4179.cpp.o CMakeFiles/4179.dir/src/Three_week/1189.cpp.o CMakeFiles/4179.dir/src/Four_theory/bitdrop.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
-  OBJECT_DIR = CMakeFiles/4179.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 4179
-  TARGET_PDB = 4179.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 9934
-
-
-#############################################
-# Order-only phony target for 9934
-
-build cmake_object_order_depends_target_9934: phony || .
-
-build CMakeFiles/9934.dir/src/Three_week/9934.cpp.o: CXX_COMPILER__9934_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Three_week/9934.cpp || cmake_object_order_depends_target_9934
-  DEP_FILE = CMakeFiles/9934.dir/src/Three_week/9934.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/9934.dir
-  OBJECT_FILE_DIR = CMakeFiles/9934.dir/src/Three_week
-
-build CMakeFiles/9934.dir/src/Three_week/1189.cpp.o: CXX_COMPILER__9934_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Three_week/1189.cpp || cmake_object_order_depends_target_9934
-  DEP_FILE = CMakeFiles/9934.dir/src/Three_week/1189.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/9934.dir
-  OBJECT_FILE_DIR = CMakeFiles/9934.dir/src/Three_week
-
-build CMakeFiles/9934.dir/src/Four_theory/bitdrop.cpp.o: CXX_COMPILER__9934_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Four_theory/bitdrop.cpp || cmake_object_order_depends_target_9934
-  DEP_FILE = CMakeFiles/9934.dir/src/Four_theory/bitdrop.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/9934.dir
-  OBJECT_FILE_DIR = CMakeFiles/9934.dir/src/Four_theory
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 9934
-
-
-#############################################
-# Link the executable 9934
-
-build 9934: CXX_EXECUTABLE_LINKER__9934_Debug CMakeFiles/9934.dir/src/Three_week/9934.cpp.o CMakeFiles/9934.dir/src/Three_week/1189.cpp.o CMakeFiles/9934.dir/src/Four_theory/bitdrop.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
-  OBJECT_DIR = CMakeFiles/9934.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 9934
-  TARGET_PDB = 9934.dbg
+  TARGET_FILE = 19942
+  TARGET_PDB = 19942.dbg
 
 
 #############################################
@@ -842,7 +229,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/gwon-oyeong/CLionProjects/cppCodingTest/cmake-build-debug
 
-build all: phony 1189 12851 12869 13913 14497 14620 15684 15686 16234 16637 17071 17071re 1987 2529 2589 3197 4179 9934
+build all: phony 1285 14890 17471 1987 19942
 
 # =============================================================================
 # Built-in targets
