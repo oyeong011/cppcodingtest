@@ -41,6 +41,37 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = /Users/gwon-oyeong/CLionProjects/cppCodingTest/cmake-build-debug/
 # =============================================================================
+# Object build statements for EXECUTABLE target 1062
+
+
+#############################################
+# Order-only phony target for 1062
+
+build cmake_object_order_depends_target_1062: phony || .
+
+build CMakeFiles/1062.dir/src/Four_week/1062.cpp.o: CXX_COMPILER__1062_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Four_week/1062.cpp || cmake_object_order_depends_target_1062
+  DEP_FILE = CMakeFiles/1062.dir/src/Four_week/1062.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/1062.dir
+  OBJECT_FILE_DIR = CMakeFiles/1062.dir/src/Four_week
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1062
+
+
+#############################################
+# Link the executable 1062
+
+build 1062: CXX_EXECUTABLE_LINKER__1062_Debug CMakeFiles/1062.dir/src/Four_week/1062.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
+  OBJECT_DIR = CMakeFiles/1062.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 1062
+  TARGET_PDB = 1062.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target 1285
 
 
@@ -55,6 +86,12 @@ build CMakeFiles/1285.dir/src/Four_week/1285.cpp.o: CXX_COMPILER__1285_unscanned
   OBJECT_DIR = CMakeFiles/1285.dir
   OBJECT_FILE_DIR = CMakeFiles/1285.dir/src/Four_week
 
+build CMakeFiles/1285.dir/src/Four_week/1062.cpp.o: CXX_COMPILER__1285_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Four_week/1062.cpp || cmake_object_order_depends_target_1285
+  DEP_FILE = CMakeFiles/1285.dir/src/Four_week/1062.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/1285.dir
+  OBJECT_FILE_DIR = CMakeFiles/1285.dir/src/Four_week
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 1285
@@ -63,7 +100,7 @@ build CMakeFiles/1285.dir/src/Four_week/1285.cpp.o: CXX_COMPILER__1285_unscanned
 #############################################
 # Link the executable 1285
 
-build 1285: CXX_EXECUTABLE_LINKER__1285_Debug CMakeFiles/1285.dir/src/Four_week/1285.cpp.o
+build 1285: CXX_EXECUTABLE_LINKER__1285_Debug CMakeFiles/1285.dir/src/Four_week/1285.cpp.o CMakeFiles/1285.dir/src/Four_week/1062.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/1285.dir
   POST_BUILD = :
@@ -86,6 +123,12 @@ build CMakeFiles/14890.dir/src/Four_week/14890.cpp.o: CXX_COMPILER__14890_unscan
   OBJECT_DIR = CMakeFiles/14890.dir
   OBJECT_FILE_DIR = CMakeFiles/14890.dir/src/Four_week
 
+build CMakeFiles/14890.dir/src/Four_week/1062.cpp.o: CXX_COMPILER__14890_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Four_week/1062.cpp || cmake_object_order_depends_target_14890
+  DEP_FILE = CMakeFiles/14890.dir/src/Four_week/1062.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/14890.dir
+  OBJECT_FILE_DIR = CMakeFiles/14890.dir/src/Four_week
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 14890
@@ -94,7 +137,7 @@ build CMakeFiles/14890.dir/src/Four_week/14890.cpp.o: CXX_COMPILER__14890_unscan
 #############################################
 # Link the executable 14890
 
-build 14890: CXX_EXECUTABLE_LINKER__14890_Debug CMakeFiles/14890.dir/src/Four_week/14890.cpp.o
+build 14890: CXX_EXECUTABLE_LINKER__14890_Debug CMakeFiles/14890.dir/src/Four_week/14890.cpp.o CMakeFiles/14890.dir/src/Four_week/1062.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/14890.dir
   POST_BUILD = :
@@ -117,6 +160,12 @@ build CMakeFiles/17471.dir/src/Four_week/17471.cpp.o: CXX_COMPILER__17471_unscan
   OBJECT_DIR = CMakeFiles/17471.dir
   OBJECT_FILE_DIR = CMakeFiles/17471.dir/src/Four_week
 
+build CMakeFiles/17471.dir/src/Four_week/1062.cpp.o: CXX_COMPILER__17471_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Four_week/1062.cpp || cmake_object_order_depends_target_17471
+  DEP_FILE = CMakeFiles/17471.dir/src/Four_week/1062.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/17471.dir
+  OBJECT_FILE_DIR = CMakeFiles/17471.dir/src/Four_week
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 17471
@@ -125,7 +174,7 @@ build CMakeFiles/17471.dir/src/Four_week/17471.cpp.o: CXX_COMPILER__17471_unscan
 #############################################
 # Link the executable 17471
 
-build 17471: CXX_EXECUTABLE_LINKER__17471_Debug CMakeFiles/17471.dir/src/Four_week/17471.cpp.o
+build 17471: CXX_EXECUTABLE_LINKER__17471_Debug CMakeFiles/17471.dir/src/Four_week/17471.cpp.o CMakeFiles/17471.dir/src/Four_week/1062.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/17471.dir
   POST_BUILD = :
@@ -148,6 +197,12 @@ build CMakeFiles/1987.dir/src/Four_week/1987.cpp.o: CXX_COMPILER__1987_unscanned
   OBJECT_DIR = CMakeFiles/1987.dir
   OBJECT_FILE_DIR = CMakeFiles/1987.dir/src/Four_week
 
+build CMakeFiles/1987.dir/src/Four_week/1062.cpp.o: CXX_COMPILER__1987_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Four_week/1062.cpp || cmake_object_order_depends_target_1987
+  DEP_FILE = CMakeFiles/1987.dir/src/Four_week/1062.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/1987.dir
+  OBJECT_FILE_DIR = CMakeFiles/1987.dir/src/Four_week
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 1987
@@ -156,7 +211,7 @@ build CMakeFiles/1987.dir/src/Four_week/1987.cpp.o: CXX_COMPILER__1987_unscanned
 #############################################
 # Link the executable 1987
 
-build 1987: CXX_EXECUTABLE_LINKER__1987_Debug CMakeFiles/1987.dir/src/Four_week/1987.cpp.o
+build 1987: CXX_EXECUTABLE_LINKER__1987_Debug CMakeFiles/1987.dir/src/Four_week/1987.cpp.o CMakeFiles/1987.dir/src/Four_week/1062.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/1987.dir
   POST_BUILD = :
@@ -179,6 +234,12 @@ build CMakeFiles/19942.dir/src/Four_week/19942.cpp.o: CXX_COMPILER__19942_unscan
   OBJECT_DIR = CMakeFiles/19942.dir
   OBJECT_FILE_DIR = CMakeFiles/19942.dir/src/Four_week
 
+build CMakeFiles/19942.dir/src/Four_week/1062.cpp.o: CXX_COMPILER__19942_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Four_week/1062.cpp || cmake_object_order_depends_target_19942
+  DEP_FILE = CMakeFiles/19942.dir/src/Four_week/1062.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/19942.dir
+  OBJECT_FILE_DIR = CMakeFiles/19942.dir/src/Four_week
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 19942
@@ -187,7 +248,7 @@ build CMakeFiles/19942.dir/src/Four_week/19942.cpp.o: CXX_COMPILER__19942_unscan
 #############################################
 # Link the executable 19942
 
-build 19942: CXX_EXECUTABLE_LINKER__19942_Debug CMakeFiles/19942.dir/src/Four_week/19942.cpp.o
+build 19942: CXX_EXECUTABLE_LINKER__19942_Debug CMakeFiles/19942.dir/src/Four_week/19942.cpp.o CMakeFiles/19942.dir/src/Four_week/1062.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/19942.dir
   POST_BUILD = :
@@ -229,7 +290,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/gwon-oyeong/CLionProjects/cppCodingTest/cmake-build-debug
 
-build all: phony 1285 14890 17471 1987 19942
+build all: phony 1062 1285 14890 17471 1987 19942
 
 # =============================================================================
 # Built-in targets

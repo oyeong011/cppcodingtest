@@ -11,5 +11,6 @@ foreach(source_file ${SOURCES})
     # 소스 파일의 파일명(확장자 제외)을 가져옵니다.
     get_filename_component(exec_name ${source_file} NAME_WE)
     add_executable(${exec_name} ${source_file}
+            src/Four_week/1062.cpp
     )
 endforeach()
