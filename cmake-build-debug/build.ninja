@@ -41,283 +41,997 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = /Users/gwon-oyeong/CLionProjects/cppCodingTest/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target 1062
+# Object build statements for EXECUTABLE target 10250
 
 
 #############################################
-# Order-only phony target for 1062
+# Order-only phony target for 10250
 
-build cmake_object_order_depends_target_1062: phony || .
+build cmake_object_order_depends_target_10250: phony || .
 
-build CMakeFiles/1062.dir/src/Four_week/1062.cpp.o: CXX_COMPILER__1062_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Four_week/1062.cpp || cmake_object_order_depends_target_1062
-  DEP_FILE = CMakeFiles/1062.dir/src/Four_week/1062.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/1062.dir
-  OBJECT_FILE_DIR = CMakeFiles/1062.dir/src/Four_week
+build CMakeFiles/10250.dir/src/Five_week/10250.cpp.o: CXX_COMPILER__10250_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Five_week/10250.cpp || cmake_object_order_depends_target_10250
+  DEP_FILE = CMakeFiles/10250.dir/src/Five_week/10250.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/10250.dir
+  OBJECT_FILE_DIR = CMakeFiles/10250.dir/src/Five_week
+
+build CMakeFiles/10250.dir/src/Five_week/17825.cpp.o: CXX_COMPILER__10250_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Five_week/17825.cpp || cmake_object_order_depends_target_10250
+  DEP_FILE = CMakeFiles/10250.dir/src/Five_week/17825.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/10250.dir
+  OBJECT_FILE_DIR = CMakeFiles/10250.dir/src/Five_week
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target 1062
+# Link build statements for EXECUTABLE target 10250
 
 
 #############################################
-# Link the executable 1062
+# Link the executable 10250
 
-build 1062: CXX_EXECUTABLE_LINKER__1062_Debug CMakeFiles/1062.dir/src/Four_week/1062.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
-  OBJECT_DIR = CMakeFiles/1062.dir
+build 10250: CXX_EXECUTABLE_LINKER__10250_Debug CMakeFiles/10250.dir/src/Five_week/10250.cpp.o CMakeFiles/10250.dir/src/Five_week/17825.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6
+  OBJECT_DIR = CMakeFiles/10250.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = 1062
-  TARGET_PDB = 1062.dbg
+  TARGET_FILE = 10250
+  TARGET_PDB = 10250.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target 1094
+# Object build statements for EXECUTABLE target 1074
 
 
 #############################################
-# Order-only phony target for 1094
+# Order-only phony target for 1074
 
-build cmake_object_order_depends_target_1094: phony || .
+build cmake_object_order_depends_target_1074: phony || .
 
-build CMakeFiles/1094.dir/src/Four_week/1094.cpp.o: CXX_COMPILER__1094_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Four_week/1094.cpp || cmake_object_order_depends_target_1094
-  DEP_FILE = CMakeFiles/1094.dir/src/Four_week/1094.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/1094.dir
-  OBJECT_FILE_DIR = CMakeFiles/1094.dir/src/Four_week
+build CMakeFiles/1074.dir/src/Five_week/1074.cpp.o: CXX_COMPILER__1074_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Five_week/1074.cpp || cmake_object_order_depends_target_1074
+  DEP_FILE = CMakeFiles/1074.dir/src/Five_week/1074.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/1074.dir
+  OBJECT_FILE_DIR = CMakeFiles/1074.dir/src/Five_week
+
+build CMakeFiles/1074.dir/src/Five_week/17825.cpp.o: CXX_COMPILER__1074_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Five_week/17825.cpp || cmake_object_order_depends_target_1074
+  DEP_FILE = CMakeFiles/1074.dir/src/Five_week/17825.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/1074.dir
+  OBJECT_FILE_DIR = CMakeFiles/1074.dir/src/Five_week
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target 1094
+# Link build statements for EXECUTABLE target 1074
 
 
 #############################################
-# Link the executable 1094
+# Link the executable 1074
 
-build 1094: CXX_EXECUTABLE_LINKER__1094_Debug CMakeFiles/1094.dir/src/Four_week/1094.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
-  OBJECT_DIR = CMakeFiles/1094.dir
+build 1074: CXX_EXECUTABLE_LINKER__1074_Debug CMakeFiles/1074.dir/src/Five_week/1074.cpp.o CMakeFiles/1074.dir/src/Five_week/17825.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6
+  OBJECT_DIR = CMakeFiles/1074.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = 1094
-  TARGET_PDB = 1094.dbg
+  TARGET_FILE = 1074
+  TARGET_PDB = 1074.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target 11723
+# Object build statements for EXECUTABLE target 11279
 
 
 #############################################
-# Order-only phony target for 11723
+# Order-only phony target for 11279
 
-build cmake_object_order_depends_target_11723: phony || .
+build cmake_object_order_depends_target_11279: phony || .
 
-build CMakeFiles/11723.dir/src/Four_week/11723.cpp.o: CXX_COMPILER__11723_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Four_week/11723.cpp || cmake_object_order_depends_target_11723
-  DEP_FILE = CMakeFiles/11723.dir/src/Four_week/11723.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/11723.dir
-  OBJECT_FILE_DIR = CMakeFiles/11723.dir/src/Four_week
+build CMakeFiles/11279.dir/src/Five_week/11279.cpp.o: CXX_COMPILER__11279_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Five_week/11279.cpp || cmake_object_order_depends_target_11279
+  DEP_FILE = CMakeFiles/11279.dir/src/Five_week/11279.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/11279.dir
+  OBJECT_FILE_DIR = CMakeFiles/11279.dir/src/Five_week
+
+build CMakeFiles/11279.dir/src/Five_week/17825.cpp.o: CXX_COMPILER__11279_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Five_week/17825.cpp || cmake_object_order_depends_target_11279
+  DEP_FILE = CMakeFiles/11279.dir/src/Five_week/17825.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/11279.dir
+  OBJECT_FILE_DIR = CMakeFiles/11279.dir/src/Five_week
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target 11723
+# Link build statements for EXECUTABLE target 11279
 
 
 #############################################
-# Link the executable 11723
+# Link the executable 11279
 
-build 11723: CXX_EXECUTABLE_LINKER__11723_Debug CMakeFiles/11723.dir/src/Four_week/11723.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
-  OBJECT_DIR = CMakeFiles/11723.dir
+build 11279: CXX_EXECUTABLE_LINKER__11279_Debug CMakeFiles/11279.dir/src/Five_week/11279.cpp.o CMakeFiles/11279.dir/src/Five_week/17825.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6
+  OBJECT_DIR = CMakeFiles/11279.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = 11723
-  TARGET_PDB = 11723.dbg
+  TARGET_FILE = 11279
+  TARGET_PDB = 11279.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target 1285
+# Object build statements for EXECUTABLE target 1202
 
 
 #############################################
-# Order-only phony target for 1285
+# Order-only phony target for 1202
 
-build cmake_object_order_depends_target_1285: phony || .
+build cmake_object_order_depends_target_1202: phony || .
 
-build CMakeFiles/1285.dir/src/Four_week/1285.cpp.o: CXX_COMPILER__1285_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Four_week/1285.cpp || cmake_object_order_depends_target_1285
-  DEP_FILE = CMakeFiles/1285.dir/src/Four_week/1285.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/1285.dir
-  OBJECT_FILE_DIR = CMakeFiles/1285.dir/src/Four_week
+build CMakeFiles/1202.dir/src/Five_week/1202.cpp.o: CXX_COMPILER__1202_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Five_week/1202.cpp || cmake_object_order_depends_target_1202
+  DEP_FILE = CMakeFiles/1202.dir/src/Five_week/1202.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/1202.dir
+  OBJECT_FILE_DIR = CMakeFiles/1202.dir/src/Five_week
+
+build CMakeFiles/1202.dir/src/Five_week/17825.cpp.o: CXX_COMPILER__1202_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Five_week/17825.cpp || cmake_object_order_depends_target_1202
+  DEP_FILE = CMakeFiles/1202.dir/src/Five_week/17825.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/1202.dir
+  OBJECT_FILE_DIR = CMakeFiles/1202.dir/src/Five_week
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target 1285
+# Link build statements for EXECUTABLE target 1202
 
 
 #############################################
-# Link the executable 1285
+# Link the executable 1202
 
-build 1285: CXX_EXECUTABLE_LINKER__1285_Debug CMakeFiles/1285.dir/src/Four_week/1285.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
-  OBJECT_DIR = CMakeFiles/1285.dir
+build 1202: CXX_EXECUTABLE_LINKER__1202_Debug CMakeFiles/1202.dir/src/Five_week/1202.cpp.o CMakeFiles/1202.dir/src/Five_week/17825.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6
+  OBJECT_DIR = CMakeFiles/1202.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = 1285
-  TARGET_PDB = 1285.dbg
+  TARGET_FILE = 1202
+  TARGET_PDB = 1202.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target 14890
+# Object build statements for EXECUTABLE target 12100
 
 
 #############################################
-# Order-only phony target for 14890
+# Order-only phony target for 12100
 
-build cmake_object_order_depends_target_14890: phony || .
+build cmake_object_order_depends_target_12100: phony || .
 
-build CMakeFiles/14890.dir/src/Four_week/14890.cpp.o: CXX_COMPILER__14890_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Four_week/14890.cpp || cmake_object_order_depends_target_14890
-  DEP_FILE = CMakeFiles/14890.dir/src/Four_week/14890.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/14890.dir
-  OBJECT_FILE_DIR = CMakeFiles/14890.dir/src/Four_week
+build CMakeFiles/12100.dir/src/Five_week/12100.cpp.o: CXX_COMPILER__12100_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Five_week/12100.cpp || cmake_object_order_depends_target_12100
+  DEP_FILE = CMakeFiles/12100.dir/src/Five_week/12100.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/12100.dir
+  OBJECT_FILE_DIR = CMakeFiles/12100.dir/src/Five_week
+
+build CMakeFiles/12100.dir/src/Five_week/17825.cpp.o: CXX_COMPILER__12100_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Five_week/17825.cpp || cmake_object_order_depends_target_12100
+  DEP_FILE = CMakeFiles/12100.dir/src/Five_week/17825.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/12100.dir
+  OBJECT_FILE_DIR = CMakeFiles/12100.dir/src/Five_week
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target 14890
+# Link build statements for EXECUTABLE target 12100
 
 
 #############################################
-# Link the executable 14890
+# Link the executable 12100
 
-build 14890: CXX_EXECUTABLE_LINKER__14890_Debug CMakeFiles/14890.dir/src/Four_week/14890.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
-  OBJECT_DIR = CMakeFiles/14890.dir
+build 12100: CXX_EXECUTABLE_LINKER__12100_Debug CMakeFiles/12100.dir/src/Five_week/12100.cpp.o CMakeFiles/12100.dir/src/Five_week/17825.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6
+  OBJECT_DIR = CMakeFiles/12100.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = 14890
-  TARGET_PDB = 14890.dbg
+  TARGET_FILE = 12100
+  TARGET_PDB = 12100.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target 17471
+# Object build statements for EXECUTABLE target 1231241413
 
 
 #############################################
-# Order-only phony target for 17471
+# Order-only phony target for 1231241413
 
-build cmake_object_order_depends_target_17471: phony || .
+build cmake_object_order_depends_target_1231241413: phony || .
 
-build CMakeFiles/17471.dir/src/Four_week/17471.cpp.o: CXX_COMPILER__17471_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Four_week/17471.cpp || cmake_object_order_depends_target_17471
-  DEP_FILE = CMakeFiles/17471.dir/src/Four_week/17471.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/17471.dir
-  OBJECT_FILE_DIR = CMakeFiles/17471.dir/src/Four_week
+build CMakeFiles/1231241413.dir/src/Five_week/1231241413.cpp.o: CXX_COMPILER__1231241413_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Five_week/1231241413.cpp || cmake_object_order_depends_target_1231241413
+  DEP_FILE = CMakeFiles/1231241413.dir/src/Five_week/1231241413.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/1231241413.dir
+  OBJECT_FILE_DIR = CMakeFiles/1231241413.dir/src/Five_week
+
+build CMakeFiles/1231241413.dir/src/Five_week/17825.cpp.o: CXX_COMPILER__1231241413_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Five_week/17825.cpp || cmake_object_order_depends_target_1231241413
+  DEP_FILE = CMakeFiles/1231241413.dir/src/Five_week/17825.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/1231241413.dir
+  OBJECT_FILE_DIR = CMakeFiles/1231241413.dir/src/Five_week
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target 17471
+# Link build statements for EXECUTABLE target 1231241413
 
 
 #############################################
-# Link the executable 17471
+# Link the executable 1231241413
 
-build 17471: CXX_EXECUTABLE_LINKER__17471_Debug CMakeFiles/17471.dir/src/Four_week/17471.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
-  OBJECT_DIR = CMakeFiles/17471.dir
+build 1231241413: CXX_EXECUTABLE_LINKER__1231241413_Debug CMakeFiles/1231241413.dir/src/Five_week/1231241413.cpp.o CMakeFiles/1231241413.dir/src/Five_week/17825.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6
+  OBJECT_DIR = CMakeFiles/1231241413.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = 17471
-  TARGET_PDB = 17471.dbg
+  TARGET_FILE = 1231241413
+  TARGET_PDB = 1231241413.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target 1987
+# Object build statements for EXECUTABLE target 13144
 
 
 #############################################
-# Order-only phony target for 1987
+# Order-only phony target for 13144
 
-build cmake_object_order_depends_target_1987: phony || .
+build cmake_object_order_depends_target_13144: phony || .
 
-build CMakeFiles/1987.dir/src/Four_week/1987.cpp.o: CXX_COMPILER__1987_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Four_week/1987.cpp || cmake_object_order_depends_target_1987
-  DEP_FILE = CMakeFiles/1987.dir/src/Four_week/1987.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/1987.dir
-  OBJECT_FILE_DIR = CMakeFiles/1987.dir/src/Four_week
+build CMakeFiles/13144.dir/src/Five_week/13144.cpp.o: CXX_COMPILER__13144_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Five_week/13144.cpp || cmake_object_order_depends_target_13144
+  DEP_FILE = CMakeFiles/13144.dir/src/Five_week/13144.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/13144.dir
+  OBJECT_FILE_DIR = CMakeFiles/13144.dir/src/Five_week
+
+build CMakeFiles/13144.dir/src/Five_week/17825.cpp.o: CXX_COMPILER__13144_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Five_week/17825.cpp || cmake_object_order_depends_target_13144
+  DEP_FILE = CMakeFiles/13144.dir/src/Five_week/17825.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/13144.dir
+  OBJECT_FILE_DIR = CMakeFiles/13144.dir/src/Five_week
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target 1987
+# Link build statements for EXECUTABLE target 13144
 
 
 #############################################
-# Link the executable 1987
+# Link the executable 13144
 
-build 1987: CXX_EXECUTABLE_LINKER__1987_Debug CMakeFiles/1987.dir/src/Four_week/1987.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
-  OBJECT_DIR = CMakeFiles/1987.dir
+build 13144: CXX_EXECUTABLE_LINKER__13144_Debug CMakeFiles/13144.dir/src/Five_week/13144.cpp.o CMakeFiles/13144.dir/src/Five_week/17825.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6
+  OBJECT_DIR = CMakeFiles/13144.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = 1987
-  TARGET_PDB = 1987.dbg
+  TARGET_FILE = 13144
+  TARGET_PDB = 13144.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target 19942
+# Object build statements for EXECUTABLE target 14469
 
 
 #############################################
-# Order-only phony target for 19942
+# Order-only phony target for 14469
 
-build cmake_object_order_depends_target_19942: phony || .
+build cmake_object_order_depends_target_14469: phony || .
 
-build CMakeFiles/19942.dir/src/Four_week/19942.cpp.o: CXX_COMPILER__19942_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Four_week/19942.cpp || cmake_object_order_depends_target_19942
-  DEP_FILE = CMakeFiles/19942.dir/src/Four_week/19942.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/19942.dir
-  OBJECT_FILE_DIR = CMakeFiles/19942.dir/src/Four_week
+build CMakeFiles/14469.dir/src/Five_week/14469.cpp.o: CXX_COMPILER__14469_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Five_week/14469.cpp || cmake_object_order_depends_target_14469
+  DEP_FILE = CMakeFiles/14469.dir/src/Five_week/14469.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/14469.dir
+  OBJECT_FILE_DIR = CMakeFiles/14469.dir/src/Five_week
+
+build CMakeFiles/14469.dir/src/Five_week/17825.cpp.o: CXX_COMPILER__14469_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Five_week/17825.cpp || cmake_object_order_depends_target_14469
+  DEP_FILE = CMakeFiles/14469.dir/src/Five_week/17825.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/14469.dir
+  OBJECT_FILE_DIR = CMakeFiles/14469.dir/src/Five_week
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target 19942
+# Link build statements for EXECUTABLE target 14469
 
 
 #############################################
-# Link the executable 19942
+# Link the executable 14469
 
-build 19942: CXX_EXECUTABLE_LINKER__19942_Debug CMakeFiles/19942.dir/src/Four_week/19942.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
-  OBJECT_DIR = CMakeFiles/19942.dir
+build 14469: CXX_EXECUTABLE_LINKER__14469_Debug CMakeFiles/14469.dir/src/Five_week/14469.cpp.o CMakeFiles/14469.dir/src/Five_week/17825.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6
+  OBJECT_DIR = CMakeFiles/14469.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = 19942
-  TARGET_PDB = 19942.dbg
+  TARGET_FILE = 14469
+  TARGET_PDB = 14469.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target 2234
+# Object build statements for EXECUTABLE target 14889
 
 
 #############################################
-# Order-only phony target for 2234
+# Order-only phony target for 14889
 
-build cmake_object_order_depends_target_2234: phony || .
+build cmake_object_order_depends_target_14889: phony || .
 
-build CMakeFiles/2234.dir/src/Four_week/2234.cpp.o: CXX_COMPILER__2234_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Four_week/2234.cpp || cmake_object_order_depends_target_2234
-  DEP_FILE = CMakeFiles/2234.dir/src/Four_week/2234.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/2234.dir
-  OBJECT_FILE_DIR = CMakeFiles/2234.dir/src/Four_week
+build CMakeFiles/14889.dir/src/Five_week/14889.cpp.o: CXX_COMPILER__14889_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Five_week/14889.cpp || cmake_object_order_depends_target_14889
+  DEP_FILE = CMakeFiles/14889.dir/src/Five_week/14889.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/14889.dir
+  OBJECT_FILE_DIR = CMakeFiles/14889.dir/src/Five_week
+
+build CMakeFiles/14889.dir/src/Five_week/17825.cpp.o: CXX_COMPILER__14889_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Five_week/17825.cpp || cmake_object_order_depends_target_14889
+  DEP_FILE = CMakeFiles/14889.dir/src/Five_week/17825.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/14889.dir
+  OBJECT_FILE_DIR = CMakeFiles/14889.dir/src/Five_week
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target 2234
+# Link build statements for EXECUTABLE target 14889
 
 
 #############################################
-# Link the executable 2234
+# Link the executable 14889
 
-build 2234: CXX_EXECUTABLE_LINKER__2234_Debug CMakeFiles/2234.dir/src/Four_week/2234.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
-  OBJECT_DIR = CMakeFiles/2234.dir
+build 14889: CXX_EXECUTABLE_LINKER__14889_Debug CMakeFiles/14889.dir/src/Five_week/14889.cpp.o CMakeFiles/14889.dir/src/Five_week/17825.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6
+  OBJECT_DIR = CMakeFiles/14889.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = 2234
-  TARGET_PDB = 2234.dbg
+  TARGET_FILE = 14889
+  TARGET_PDB = 14889.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 15662
+
+
+#############################################
+# Order-only phony target for 15662
+
+build cmake_object_order_depends_target_15662: phony || .
+
+build CMakeFiles/15662.dir/src/Five_week/15662.cpp.o: CXX_COMPILER__15662_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Five_week/15662.cpp || cmake_object_order_depends_target_15662
+  DEP_FILE = CMakeFiles/15662.dir/src/Five_week/15662.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/15662.dir
+  OBJECT_FILE_DIR = CMakeFiles/15662.dir/src/Five_week
+
+build CMakeFiles/15662.dir/src/Five_week/17825.cpp.o: CXX_COMPILER__15662_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Five_week/17825.cpp || cmake_object_order_depends_target_15662
+  DEP_FILE = CMakeFiles/15662.dir/src/Five_week/17825.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/15662.dir
+  OBJECT_FILE_DIR = CMakeFiles/15662.dir/src/Five_week
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 15662
+
+
+#############################################
+# Link the executable 15662
+
+build 15662: CXX_EXECUTABLE_LINKER__15662_Debug CMakeFiles/15662.dir/src/Five_week/15662.cpp.o CMakeFiles/15662.dir/src/Five_week/17825.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6
+  OBJECT_DIR = CMakeFiles/15662.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 15662
+  TARGET_PDB = 15662.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 1644
+
+
+#############################################
+# Order-only phony target for 1644
+
+build cmake_object_order_depends_target_1644: phony || .
+
+build CMakeFiles/1644.dir/src/Five_week/1644.cpp.o: CXX_COMPILER__1644_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Five_week/1644.cpp || cmake_object_order_depends_target_1644
+  DEP_FILE = CMakeFiles/1644.dir/src/Five_week/1644.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/1644.dir
+  OBJECT_FILE_DIR = CMakeFiles/1644.dir/src/Five_week
+
+build CMakeFiles/1644.dir/src/Five_week/17825.cpp.o: CXX_COMPILER__1644_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Five_week/17825.cpp || cmake_object_order_depends_target_1644
+  DEP_FILE = CMakeFiles/1644.dir/src/Five_week/17825.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/1644.dir
+  OBJECT_FILE_DIR = CMakeFiles/1644.dir/src/Five_week
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1644
+
+
+#############################################
+# Link the executable 1644
+
+build 1644: CXX_EXECUTABLE_LINKER__1644_Debug CMakeFiles/1644.dir/src/Five_week/1644.cpp.o CMakeFiles/1644.dir/src/Five_week/17825.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6
+  OBJECT_DIR = CMakeFiles/1644.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 1644
+  TARGET_PDB = 1644.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 1700
+
+
+#############################################
+# Order-only phony target for 1700
+
+build cmake_object_order_depends_target_1700: phony || .
+
+build CMakeFiles/1700.dir/src/Five_week/1700.cpp.o: CXX_COMPILER__1700_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Five_week/1700.cpp || cmake_object_order_depends_target_1700
+  DEP_FILE = CMakeFiles/1700.dir/src/Five_week/1700.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/1700.dir
+  OBJECT_FILE_DIR = CMakeFiles/1700.dir/src/Five_week
+
+build CMakeFiles/1700.dir/src/Five_week/17825.cpp.o: CXX_COMPILER__1700_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Five_week/17825.cpp || cmake_object_order_depends_target_1700
+  DEP_FILE = CMakeFiles/1700.dir/src/Five_week/17825.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/1700.dir
+  OBJECT_FILE_DIR = CMakeFiles/1700.dir/src/Five_week
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1700
+
+
+#############################################
+# Link the executable 1700
+
+build 1700: CXX_EXECUTABLE_LINKER__1700_Debug CMakeFiles/1700.dir/src/Five_week/1700.cpp.o CMakeFiles/1700.dir/src/Five_week/17825.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6
+  OBJECT_DIR = CMakeFiles/1700.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 1700
+  TARGET_PDB = 1700.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 17144
+
+
+#############################################
+# Order-only phony target for 17144
+
+build cmake_object_order_depends_target_17144: phony || .
+
+build CMakeFiles/17144.dir/src/Five_week/17144.cpp.o: CXX_COMPILER__17144_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Five_week/17144.cpp || cmake_object_order_depends_target_17144
+  DEP_FILE = CMakeFiles/17144.dir/src/Five_week/17144.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/17144.dir
+  OBJECT_FILE_DIR = CMakeFiles/17144.dir/src/Five_week
+
+build CMakeFiles/17144.dir/src/Five_week/17825.cpp.o: CXX_COMPILER__17144_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Five_week/17825.cpp || cmake_object_order_depends_target_17144
+  DEP_FILE = CMakeFiles/17144.dir/src/Five_week/17825.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/17144.dir
+  OBJECT_FILE_DIR = CMakeFiles/17144.dir/src/Five_week
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 17144
+
+
+#############################################
+# Link the executable 17144
+
+build 17144: CXX_EXECUTABLE_LINKER__17144_Debug CMakeFiles/17144.dir/src/Five_week/17144.cpp.o CMakeFiles/17144.dir/src/Five_week/17825.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6
+  OBJECT_DIR = CMakeFiles/17144.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 17144
+  TARGET_PDB = 17144.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 17219
+
+
+#############################################
+# Order-only phony target for 17219
+
+build cmake_object_order_depends_target_17219: phony || .
+
+build CMakeFiles/17219.dir/src/Five_week/17219.cpp.o: CXX_COMPILER__17219_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Five_week/17219.cpp || cmake_object_order_depends_target_17219
+  DEP_FILE = CMakeFiles/17219.dir/src/Five_week/17219.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/17219.dir
+  OBJECT_FILE_DIR = CMakeFiles/17219.dir/src/Five_week
+
+build CMakeFiles/17219.dir/src/Five_week/17825.cpp.o: CXX_COMPILER__17219_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Five_week/17825.cpp || cmake_object_order_depends_target_17219
+  DEP_FILE = CMakeFiles/17219.dir/src/Five_week/17825.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/17219.dir
+  OBJECT_FILE_DIR = CMakeFiles/17219.dir/src/Five_week
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 17219
+
+
+#############################################
+# Link the executable 17219
+
+build 17219: CXX_EXECUTABLE_LINKER__17219_Debug CMakeFiles/17219.dir/src/Five_week/17219.cpp.o CMakeFiles/17219.dir/src/Five_week/17825.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6
+  OBJECT_DIR = CMakeFiles/17219.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 17219
+  TARGET_PDB = 17219.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 17406
+
+
+#############################################
+# Order-only phony target for 17406
+
+build cmake_object_order_depends_target_17406: phony || .
+
+build CMakeFiles/17406.dir/src/Five_week/17406.cpp.o: CXX_COMPILER__17406_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Five_week/17406.cpp || cmake_object_order_depends_target_17406
+  DEP_FILE = CMakeFiles/17406.dir/src/Five_week/17406.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/17406.dir
+  OBJECT_FILE_DIR = CMakeFiles/17406.dir/src/Five_week
+
+build CMakeFiles/17406.dir/src/Five_week/17825.cpp.o: CXX_COMPILER__17406_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Five_week/17825.cpp || cmake_object_order_depends_target_17406
+  DEP_FILE = CMakeFiles/17406.dir/src/Five_week/17825.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/17406.dir
+  OBJECT_FILE_DIR = CMakeFiles/17406.dir/src/Five_week
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 17406
+
+
+#############################################
+# Link the executable 17406
+
+build 17406: CXX_EXECUTABLE_LINKER__17406_Debug CMakeFiles/17406.dir/src/Five_week/17406.cpp.o CMakeFiles/17406.dir/src/Five_week/17825.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6
+  OBJECT_DIR = CMakeFiles/17406.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 17406
+  TARGET_PDB = 17406.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 1764
+
+
+#############################################
+# Order-only phony target for 1764
+
+build cmake_object_order_depends_target_1764: phony || .
+
+build CMakeFiles/1764.dir/src/Five_week/1764.cpp.o: CXX_COMPILER__1764_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Five_week/1764.cpp || cmake_object_order_depends_target_1764
+  DEP_FILE = CMakeFiles/1764.dir/src/Five_week/1764.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/1764.dir
+  OBJECT_FILE_DIR = CMakeFiles/1764.dir/src/Five_week
+
+build CMakeFiles/1764.dir/src/Five_week/17825.cpp.o: CXX_COMPILER__1764_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Five_week/17825.cpp || cmake_object_order_depends_target_1764
+  DEP_FILE = CMakeFiles/1764.dir/src/Five_week/17825.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/1764.dir
+  OBJECT_FILE_DIR = CMakeFiles/1764.dir/src/Five_week
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1764
+
+
+#############################################
+# Link the executable 1764
+
+build 1764: CXX_EXECUTABLE_LINKER__1764_Debug CMakeFiles/1764.dir/src/Five_week/1764.cpp.o CMakeFiles/1764.dir/src/Five_week/17825.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6
+  OBJECT_DIR = CMakeFiles/1764.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 1764
+  TARGET_PDB = 1764.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 1781
+
+
+#############################################
+# Order-only phony target for 1781
+
+build cmake_object_order_depends_target_1781: phony || .
+
+build CMakeFiles/1781.dir/src/Five_week/1781.cpp.o: CXX_COMPILER__1781_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Five_week/1781.cpp || cmake_object_order_depends_target_1781
+  DEP_FILE = CMakeFiles/1781.dir/src/Five_week/1781.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/1781.dir
+  OBJECT_FILE_DIR = CMakeFiles/1781.dir/src/Five_week
+
+build CMakeFiles/1781.dir/src/Five_week/17825.cpp.o: CXX_COMPILER__1781_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Five_week/17825.cpp || cmake_object_order_depends_target_1781
+  DEP_FILE = CMakeFiles/1781.dir/src/Five_week/17825.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/1781.dir
+  OBJECT_FILE_DIR = CMakeFiles/1781.dir/src/Five_week
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1781
+
+
+#############################################
+# Link the executable 1781
+
+build 1781: CXX_EXECUTABLE_LINKER__1781_Debug CMakeFiles/1781.dir/src/Five_week/1781.cpp.o CMakeFiles/1781.dir/src/Five_week/17825.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6
+  OBJECT_DIR = CMakeFiles/1781.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 1781
+  TARGET_PDB = 1781.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 17825
+
+
+#############################################
+# Order-only phony target for 17825
+
+build cmake_object_order_depends_target_17825: phony || .
+
+build CMakeFiles/17825.dir/src/Five_week/17825.cpp.o: CXX_COMPILER__17825_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Five_week/17825.cpp || cmake_object_order_depends_target_17825
+  DEP_FILE = CMakeFiles/17825.dir/src/Five_week/17825.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/17825.dir
+  OBJECT_FILE_DIR = CMakeFiles/17825.dir/src/Five_week
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 17825
+
+
+#############################################
+# Link the executable 17825
+
+build 17825: CXX_EXECUTABLE_LINKER__17825_Debug CMakeFiles/17825.dir/src/Five_week/17825.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6
+  OBJECT_DIR = CMakeFiles/17825.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 17825
+  TARGET_PDB = 17825.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 1911
+
+
+#############################################
+# Order-only phony target for 1911
+
+build cmake_object_order_depends_target_1911: phony || .
+
+build CMakeFiles/1911.dir/src/Five_week/1911.cpp.o: CXX_COMPILER__1911_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Five_week/1911.cpp || cmake_object_order_depends_target_1911
+  DEP_FILE = CMakeFiles/1911.dir/src/Five_week/1911.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/1911.dir
+  OBJECT_FILE_DIR = CMakeFiles/1911.dir/src/Five_week
+
+build CMakeFiles/1911.dir/src/Five_week/17825.cpp.o: CXX_COMPILER__1911_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Five_week/17825.cpp || cmake_object_order_depends_target_1911
+  DEP_FILE = CMakeFiles/1911.dir/src/Five_week/17825.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/1911.dir
+  OBJECT_FILE_DIR = CMakeFiles/1911.dir/src/Five_week
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1911
+
+
+#############################################
+# Link the executable 1911
+
+build 1911: CXX_EXECUTABLE_LINKER__1911_Debug CMakeFiles/1911.dir/src/Five_week/1911.cpp.o CMakeFiles/1911.dir/src/Five_week/17825.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6
+  OBJECT_DIR = CMakeFiles/1911.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 1911
+  TARGET_PDB = 1911.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 1927
+
+
+#############################################
+# Order-only phony target for 1927
+
+build cmake_object_order_depends_target_1927: phony || .
+
+build CMakeFiles/1927.dir/src/Five_week/1927.cpp.o: CXX_COMPILER__1927_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Five_week/1927.cpp || cmake_object_order_depends_target_1927
+  DEP_FILE = CMakeFiles/1927.dir/src/Five_week/1927.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/1927.dir
+  OBJECT_FILE_DIR = CMakeFiles/1927.dir/src/Five_week
+
+build CMakeFiles/1927.dir/src/Five_week/17825.cpp.o: CXX_COMPILER__1927_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Five_week/17825.cpp || cmake_object_order_depends_target_1927
+  DEP_FILE = CMakeFiles/1927.dir/src/Five_week/17825.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/1927.dir
+  OBJECT_FILE_DIR = CMakeFiles/1927.dir/src/Five_week
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1927
+
+
+#############################################
+# Link the executable 1927
+
+build 1927: CXX_EXECUTABLE_LINKER__1927_Debug CMakeFiles/1927.dir/src/Five_week/1927.cpp.o CMakeFiles/1927.dir/src/Five_week/17825.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6
+  OBJECT_DIR = CMakeFiles/1927.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 1927
+  TARGET_PDB = 1927.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 1931
+
+
+#############################################
+# Order-only phony target for 1931
+
+build cmake_object_order_depends_target_1931: phony || .
+
+build CMakeFiles/1931.dir/src/Five_week/1931.cpp.o: CXX_COMPILER__1931_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Five_week/1931.cpp || cmake_object_order_depends_target_1931
+  DEP_FILE = CMakeFiles/1931.dir/src/Five_week/1931.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/1931.dir
+  OBJECT_FILE_DIR = CMakeFiles/1931.dir/src/Five_week
+
+build CMakeFiles/1931.dir/src/Five_week/17825.cpp.o: CXX_COMPILER__1931_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Five_week/17825.cpp || cmake_object_order_depends_target_1931
+  DEP_FILE = CMakeFiles/1931.dir/src/Five_week/17825.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/1931.dir
+  OBJECT_FILE_DIR = CMakeFiles/1931.dir/src/Five_week
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1931
+
+
+#############################################
+# Link the executable 1931
+
+build 1931: CXX_EXECUTABLE_LINKER__1931_Debug CMakeFiles/1931.dir/src/Five_week/1931.cpp.o CMakeFiles/1931.dir/src/Five_week/17825.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6
+  OBJECT_DIR = CMakeFiles/1931.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 1931
+  TARGET_PDB = 1931.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 1978
+
+
+#############################################
+# Order-only phony target for 1978
+
+build cmake_object_order_depends_target_1978: phony || .
+
+build CMakeFiles/1978.dir/src/Five_week/1978.cpp.o: CXX_COMPILER__1978_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Five_week/1978.cpp || cmake_object_order_depends_target_1978
+  DEP_FILE = CMakeFiles/1978.dir/src/Five_week/1978.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/1978.dir
+  OBJECT_FILE_DIR = CMakeFiles/1978.dir/src/Five_week
+
+build CMakeFiles/1978.dir/src/Five_week/17825.cpp.o: CXX_COMPILER__1978_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Five_week/17825.cpp || cmake_object_order_depends_target_1978
+  DEP_FILE = CMakeFiles/1978.dir/src/Five_week/17825.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/1978.dir
+  OBJECT_FILE_DIR = CMakeFiles/1978.dir/src/Five_week
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1978
+
+
+#############################################
+# Link the executable 1978
+
+build 1978: CXX_EXECUTABLE_LINKER__1978_Debug CMakeFiles/1978.dir/src/Five_week/1978.cpp.o CMakeFiles/1978.dir/src/Five_week/17825.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6
+  OBJECT_DIR = CMakeFiles/1978.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 1978
+  TARGET_PDB = 1978.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 2109
+
+
+#############################################
+# Order-only phony target for 2109
+
+build cmake_object_order_depends_target_2109: phony || .
+
+build CMakeFiles/2109.dir/src/Five_week/2109.cpp.o: CXX_COMPILER__2109_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Five_week/2109.cpp || cmake_object_order_depends_target_2109
+  DEP_FILE = CMakeFiles/2109.dir/src/Five_week/2109.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/2109.dir
+  OBJECT_FILE_DIR = CMakeFiles/2109.dir/src/Five_week
+
+build CMakeFiles/2109.dir/src/Five_week/17825.cpp.o: CXX_COMPILER__2109_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Five_week/17825.cpp || cmake_object_order_depends_target_2109
+  DEP_FILE = CMakeFiles/2109.dir/src/Five_week/17825.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/2109.dir
+  OBJECT_FILE_DIR = CMakeFiles/2109.dir/src/Five_week
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 2109
+
+
+#############################################
+# Link the executable 2109
+
+build 2109: CXX_EXECUTABLE_LINKER__2109_Debug CMakeFiles/2109.dir/src/Five_week/2109.cpp.o CMakeFiles/2109.dir/src/Five_week/17825.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6
+  OBJECT_DIR = CMakeFiles/2109.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 2109
+  TARGET_PDB = 2109.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 2579
+
+
+#############################################
+# Order-only phony target for 2579
+
+build cmake_object_order_depends_target_2579: phony || .
+
+build CMakeFiles/2579.dir/src/Five_week/2579.cpp.o: CXX_COMPILER__2579_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Five_week/2579.cpp || cmake_object_order_depends_target_2579
+  DEP_FILE = CMakeFiles/2579.dir/src/Five_week/2579.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/2579.dir
+  OBJECT_FILE_DIR = CMakeFiles/2579.dir/src/Five_week
+
+build CMakeFiles/2579.dir/src/Five_week/17825.cpp.o: CXX_COMPILER__2579_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Five_week/17825.cpp || cmake_object_order_depends_target_2579
+  DEP_FILE = CMakeFiles/2579.dir/src/Five_week/17825.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/2579.dir
+  OBJECT_FILE_DIR = CMakeFiles/2579.dir/src/Five_week
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 2579
+
+
+#############################################
+# Link the executable 2579
+
+build 2579: CXX_EXECUTABLE_LINKER__2579_Debug CMakeFiles/2579.dir/src/Five_week/2579.cpp.o CMakeFiles/2579.dir/src/Five_week/17825.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6
+  OBJECT_DIR = CMakeFiles/2579.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 2579
+  TARGET_PDB = 2579.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 3190
+
+
+#############################################
+# Order-only phony target for 3190
+
+build cmake_object_order_depends_target_3190: phony || .
+
+build CMakeFiles/3190.dir/src/Five_week/3190.cpp.o: CXX_COMPILER__3190_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Five_week/3190.cpp || cmake_object_order_depends_target_3190
+  DEP_FILE = CMakeFiles/3190.dir/src/Five_week/3190.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/3190.dir
+  OBJECT_FILE_DIR = CMakeFiles/3190.dir/src/Five_week
+
+build CMakeFiles/3190.dir/src/Five_week/17825.cpp.o: CXX_COMPILER__3190_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Five_week/17825.cpp || cmake_object_order_depends_target_3190
+  DEP_FILE = CMakeFiles/3190.dir/src/Five_week/17825.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/3190.dir
+  OBJECT_FILE_DIR = CMakeFiles/3190.dir/src/Five_week
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 3190
+
+
+#############################################
+# Link the executable 3190
+
+build 3190: CXX_EXECUTABLE_LINKER__3190_Debug CMakeFiles/3190.dir/src/Five_week/3190.cpp.o CMakeFiles/3190.dir/src/Five_week/17825.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6
+  OBJECT_DIR = CMakeFiles/3190.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 3190
+  TARGET_PDB = 3190.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 3273
+
+
+#############################################
+# Order-only phony target for 3273
+
+build cmake_object_order_depends_target_3273: phony || .
+
+build CMakeFiles/3273.dir/src/Five_week/3273.cpp.o: CXX_COMPILER__3273_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Five_week/3273.cpp || cmake_object_order_depends_target_3273
+  DEP_FILE = CMakeFiles/3273.dir/src/Five_week/3273.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/3273.dir
+  OBJECT_FILE_DIR = CMakeFiles/3273.dir/src/Five_week
+
+build CMakeFiles/3273.dir/src/Five_week/17825.cpp.o: CXX_COMPILER__3273_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Five_week/17825.cpp || cmake_object_order_depends_target_3273
+  DEP_FILE = CMakeFiles/3273.dir/src/Five_week/17825.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/3273.dir
+  OBJECT_FILE_DIR = CMakeFiles/3273.dir/src/Five_week
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 3273
+
+
+#############################################
+# Link the executable 3273
+
+build 3273: CXX_EXECUTABLE_LINKER__3273_Debug CMakeFiles/3273.dir/src/Five_week/3273.cpp.o CMakeFiles/3273.dir/src/Five_week/17825.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6
+  OBJECT_DIR = CMakeFiles/3273.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 3273
+  TARGET_PDB = 3273.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 9935
+
+
+#############################################
+# Order-only phony target for 9935
+
+build cmake_object_order_depends_target_9935: phony || .
+
+build CMakeFiles/9935.dir/src/Five_week/9935.cpp.o: CXX_COMPILER__9935_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Five_week/9935.cpp || cmake_object_order_depends_target_9935
+  DEP_FILE = CMakeFiles/9935.dir/src/Five_week/9935.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/9935.dir
+  OBJECT_FILE_DIR = CMakeFiles/9935.dir/src/Five_week
+
+build CMakeFiles/9935.dir/src/Five_week/17825.cpp.o: CXX_COMPILER__9935_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Five_week/17825.cpp || cmake_object_order_depends_target_9935
+  DEP_FILE = CMakeFiles/9935.dir/src/Five_week/17825.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/9935.dir
+  OBJECT_FILE_DIR = CMakeFiles/9935.dir/src/Five_week
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 9935
+
+
+#############################################
+# Link the executable 9935
+
+build 9935: CXX_EXECUTABLE_LINKER__9935_Debug CMakeFiles/9935.dir/src/Five_week/9935.cpp.o CMakeFiles/9935.dir/src/Five_week/17825.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6
+  OBJECT_DIR = CMakeFiles/9935.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 9935
+  TARGET_PDB = 9935.dbg
 
 
 #############################################
@@ -353,7 +1067,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/gwon-oyeong/CLionProjects/cppCodingTest/cmake-build-debug
 
-build all: phony 1062 1094 11723 1285 14890 17471 1987 19942 2234
+build all: phony 10250 1074 11279 1202 12100 1231241413 13144 14469 14889 15662 1644 1700 17144 17219 17406 1764 1781 17825 1911 1927 1931 1978 2109 2579 3190 3273 9935
 
 # =============================================================================
 # Built-in targets
@@ -362,14 +1076,14 @@ build all: phony 1062 1094 11723 1285 14890 17471 1987 19942 2234
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /Users/gwon-oyeong/Applications/CLion$ Nova.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeCInformation.cmake /Users/gwon-oyeong/Applications/CLion$ Nova.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake /Users/gwon-oyeong/Applications/CLion$ Nova.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake /Users/gwon-oyeong/Applications/CLion$ Nova.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake /Users/gwon-oyeong/Applications/CLion$ Nova.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake /Users/gwon-oyeong/Applications/CLion$ Nova.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake /Users/gwon-oyeong/Applications/CLion$ Nova.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake /Users/gwon-oyeong/Applications/CLion$ Nova.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake /Users/gwon-oyeong/Applications/CLion$ Nova.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/AppleClang-C.cmake /Users/gwon-oyeong/Applications/CLion$ Nova.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/AppleClang-CXX.cmake /Users/gwon-oyeong/Applications/CLion$ Nova.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Users/gwon-oyeong/Applications/CLion$ Nova.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/Clang.cmake /Users/gwon-oyeong/Applications/CLion$ Nova.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/GNU.cmake /Users/gwon-oyeong/Applications/CLion$ Nova.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-AppleClang-C.cmake /Users/gwon-oyeong/Applications/CLion$ Nova.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-AppleClang-CXX.cmake /Users/gwon-oyeong/Applications/CLion$ Nova.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-Clang-C.cmake /Users/gwon-oyeong/Applications/CLion$ Nova.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-Clang-CXX.cmake /Users/gwon-oyeong/Applications/CLion$ Nova.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-Clang.cmake /Users/gwon-oyeong/Applications/CLion$ Nova.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Darwin-Initialize.cmake /Users/gwon-oyeong/Applications/CLion$ Nova.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Darwin.cmake /Users/gwon-oyeong/Applications/CLion$ Nova.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/UnixPaths.cmake /Users/gwon-oyeong/CLionProjects/cppCodingTest/CMakeLists.txt CMakeCache.txt CMakeFiles/3.30.3/CMakeCCompiler.cmake CMakeFiles/3.30.3/CMakeCXXCompiler.cmake CMakeFiles/3.30.3/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /Users/gwon-oyeong/Applications/CLion$ Nova.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeCInformation.cmake /Users/gwon-oyeong/Applications/CLion$ Nova.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake /Users/gwon-oyeong/Applications/CLion$ Nova.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake /Users/gwon-oyeong/Applications/CLion$ Nova.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake /Users/gwon-oyeong/Applications/CLion$ Nova.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake /Users/gwon-oyeong/Applications/CLion$ Nova.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake /Users/gwon-oyeong/Applications/CLion$ Nova.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake /Users/gwon-oyeong/Applications/CLion$ Nova.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake /Users/gwon-oyeong/Applications/CLion$ Nova.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/AppleClang-C.cmake /Users/gwon-oyeong/Applications/CLion$ Nova.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/AppleClang-CXX.cmake /Users/gwon-oyeong/Applications/CLion$ Nova.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Users/gwon-oyeong/Applications/CLion$ Nova.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/Clang.cmake /Users/gwon-oyeong/Applications/CLion$ Nova.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/GNU.cmake /Users/gwon-oyeong/Applications/CLion$ Nova.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-AppleClang-C.cmake /Users/gwon-oyeong/Applications/CLion$ Nova.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-AppleClang-CXX.cmake /Users/gwon-oyeong/Applications/CLion$ Nova.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-Clang-C.cmake /Users/gwon-oyeong/Applications/CLion$ Nova.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-Clang-CXX.cmake /Users/gwon-oyeong/Applications/CLion$ Nova.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-Clang.cmake /Users/gwon-oyeong/Applications/CLion$ Nova.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Darwin-Initialize.cmake /Users/gwon-oyeong/Applications/CLion$ Nova.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Darwin.cmake /Users/gwon-oyeong/Applications/CLion$ Nova.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/UnixPaths.cmake /Users/gwon-oyeong/CLionProjects/cppCodingTest/CMakeLists.txt CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /Users/gwon-oyeong/Applications/CLion$ Nova.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeCInformation.cmake /Users/gwon-oyeong/Applications/CLion$ Nova.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake /Users/gwon-oyeong/Applications/CLion$ Nova.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake /Users/gwon-oyeong/Applications/CLion$ Nova.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake /Users/gwon-oyeong/Applications/CLion$ Nova.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake /Users/gwon-oyeong/Applications/CLion$ Nova.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake /Users/gwon-oyeong/Applications/CLion$ Nova.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake /Users/gwon-oyeong/Applications/CLion$ Nova.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake /Users/gwon-oyeong/Applications/CLion$ Nova.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/AppleClang-C.cmake /Users/gwon-oyeong/Applications/CLion$ Nova.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/AppleClang-CXX.cmake /Users/gwon-oyeong/Applications/CLion$ Nova.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Users/gwon-oyeong/Applications/CLion$ Nova.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/Clang.cmake /Users/gwon-oyeong/Applications/CLion$ Nova.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/GNU.cmake /Users/gwon-oyeong/Applications/CLion$ Nova.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-AppleClang-C.cmake /Users/gwon-oyeong/Applications/CLion$ Nova.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-AppleClang-CXX.cmake /Users/gwon-oyeong/Applications/CLion$ Nova.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-Clang-C.cmake /Users/gwon-oyeong/Applications/CLion$ Nova.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-Clang-CXX.cmake /Users/gwon-oyeong/Applications/CLion$ Nova.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-Clang.cmake /Users/gwon-oyeong/Applications/CLion$ Nova.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Darwin-Initialize.cmake /Users/gwon-oyeong/Applications/CLion$ Nova.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Darwin.cmake /Users/gwon-oyeong/Applications/CLion$ Nova.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/UnixPaths.cmake /Users/gwon-oyeong/CLionProjects/cppCodingTest/CMakeLists.txt CMakeCache.txt CMakeFiles/3.30.3/CMakeCCompiler.cmake CMakeFiles/3.30.3/CMakeCXXCompiler.cmake CMakeFiles/3.30.3/CMakeSystem.cmake: phony
+build /Users/gwon-oyeong/Applications/CLion$ Nova.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeCInformation.cmake /Users/gwon-oyeong/Applications/CLion$ Nova.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake /Users/gwon-oyeong/Applications/CLion$ Nova.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake /Users/gwon-oyeong/Applications/CLion$ Nova.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake /Users/gwon-oyeong/Applications/CLion$ Nova.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake /Users/gwon-oyeong/Applications/CLion$ Nova.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake /Users/gwon-oyeong/Applications/CLion$ Nova.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake /Users/gwon-oyeong/Applications/CLion$ Nova.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake /Users/gwon-oyeong/Applications/CLion$ Nova.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/AppleClang-C.cmake /Users/gwon-oyeong/Applications/CLion$ Nova.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/AppleClang-CXX.cmake /Users/gwon-oyeong/Applications/CLion$ Nova.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Users/gwon-oyeong/Applications/CLion$ Nova.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/Clang.cmake /Users/gwon-oyeong/Applications/CLion$ Nova.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/GNU.cmake /Users/gwon-oyeong/Applications/CLion$ Nova.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-AppleClang-C.cmake /Users/gwon-oyeong/Applications/CLion$ Nova.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-AppleClang-CXX.cmake /Users/gwon-oyeong/Applications/CLion$ Nova.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-Clang-C.cmake /Users/gwon-oyeong/Applications/CLion$ Nova.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-Clang-CXX.cmake /Users/gwon-oyeong/Applications/CLion$ Nova.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-Clang.cmake /Users/gwon-oyeong/Applications/CLion$ Nova.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Darwin-Initialize.cmake /Users/gwon-oyeong/Applications/CLion$ Nova.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Darwin.cmake /Users/gwon-oyeong/Applications/CLion$ Nova.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/UnixPaths.cmake /Users/gwon-oyeong/CLionProjects/cppCodingTest/CMakeLists.txt CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake: phony
 
 
 #############################################
