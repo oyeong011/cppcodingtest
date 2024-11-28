@@ -1,4 +1,3 @@
-/Users/gwon-oyeong/CLionProjects/cppCodingTest/cmake-build-debug/CMakeFiles/2343.dir
-/Users/gwon-oyeong/CLionProjects/cppCodingTest/cmake-build-debug/CMakeFiles/2792.dir
+/Users/gwon-oyeong/CLionProjects/cppCodingTest/cmake-build-debug/CMakeFiles/2098.dir
 /Users/gwon-oyeong/CLionProjects/cppCodingTest/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/gwon-oyeong/CLionProjects/cppCodingTest/cmake-build-debug/CMakeFiles/rebuild_cache.dir

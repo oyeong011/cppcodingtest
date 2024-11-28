@@ -4,7 +4,7 @@ project(cppCodingTest)
 set(CMAKE_CXX_STANDARD 17)
 
 # src 디렉토리 내의 모든 .cpp 파일을 가져옵니다.
-file(GLOB SOURCES "src/Six_week/*.cpp")
+file(GLOB SOURCES "src/Seven_week/*.cpp")
 
 # 각 소스 파일마다 별도의 실행 파일을 생성합니다.
 foreach (source_file ${SOURCES})

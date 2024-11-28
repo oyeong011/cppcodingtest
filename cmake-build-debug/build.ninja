@@ -41,66 +41,35 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = /Users/gwon-oyeong/CLionProjects/cppCodingTest/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target 2343
+# Object build statements for EXECUTABLE target 2098
 
 
 #############################################
-# Order-only phony target for 2343
+# Order-only phony target for 2098
 
-build cmake_object_order_depends_target_2343: phony || .
+build cmake_object_order_depends_target_2098: phony || .
 
-build CMakeFiles/2343.dir/src/Six_week/2343.cpp.o: CXX_COMPILER__2343_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Six_week/2343.cpp || cmake_object_order_depends_target_2343
-  DEP_FILE = CMakeFiles/2343.dir/src/Six_week/2343.cpp.o.d
+build CMakeFiles/2098.dir/src/Seven_week/2098.cpp.o: CXX_COMPILER__2098_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Seven_week/2098.cpp || cmake_object_order_depends_target_2098
+  DEP_FILE = CMakeFiles/2098.dir/src/Seven_week/2098.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/2343.dir
-  OBJECT_FILE_DIR = CMakeFiles/2343.dir/src/Six_week
+  OBJECT_DIR = CMakeFiles/2098.dir
+  OBJECT_FILE_DIR = CMakeFiles/2098.dir/src/Seven_week
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target 2343
+# Link build statements for EXECUTABLE target 2098
 
 
 #############################################
-# Link the executable 2343
+# Link the executable 2098
 
-build 2343: CXX_EXECUTABLE_LINKER__2343_Debug CMakeFiles/2343.dir/src/Six_week/2343.cpp.o
+build 2098: CXX_EXECUTABLE_LINKER__2098_Debug CMakeFiles/2098.dir/src/Seven_week/2098.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6
-  OBJECT_DIR = CMakeFiles/2343.dir
+  OBJECT_DIR = CMakeFiles/2098.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = 2343
-  TARGET_PDB = 2343.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 2792
-
-
-#############################################
-# Order-only phony target for 2792
-
-build cmake_object_order_depends_target_2792: phony || .
-
-build CMakeFiles/2792.dir/src/Six_week/2792.cpp.o: CXX_COMPILER__2792_unscanned_Debug /Users/gwon-oyeong/CLionProjects/cppCodingTest/src/Six_week/2792.cpp || cmake_object_order_depends_target_2792
-  DEP_FILE = CMakeFiles/2792.dir/src/Six_week/2792.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/2792.dir
-  OBJECT_FILE_DIR = CMakeFiles/2792.dir/src/Six_week
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 2792
-
-
-#############################################
-# Link the executable 2792
-
-build 2792: CXX_EXECUTABLE_LINKER__2792_Debug CMakeFiles/2792.dir/src/Six_week/2792.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6
-  OBJECT_DIR = CMakeFiles/2792.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 2792
-  TARGET_PDB = 2792.dbg
+  TARGET_FILE = 2098
+  TARGET_PDB = 2098.dbg
 
 
 #############################################
@@ -136,7 +105,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/gwon-oyeong/CLionProjects/cppCodingTest/cmake-build-debug
 
-build all: phony 2343 2792
+build all: phony 2098
 
 # =============================================================================
 # Built-in targets
